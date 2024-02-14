@@ -22,3 +22,4 @@ function findDifference(a, b) {
   }
 
  console.log( findDifference([2,333,4],[2,8,9]));
+
