@@ -30,3 +30,32 @@ function maps(x){
         return 'F';
     }
 }
+
+
+// function x(n){
+
+//     if(n<=1){
+//         return 1
+//     }
+
+//     return n*x(n-1) 
+
+
+// }
+
+// console.log(x(5));
+
+ function reverse(string){
+
+    if(string===''|| string.length === 1){
+
+        return string;
+
+    }
+
+    return reverse(string.substr(1))+ string.charAt(0)
+
+ } 
+
+ 
+console.log(reverse('ABCD'));
