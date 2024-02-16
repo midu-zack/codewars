@@ -45,9 +45,9 @@ function maps(x){
 
 // console.log(x(5));
 
- function reverse(string){
+function reverse(string){
 
-    if(string===''|| string.length === 1){
+    if(string.length === 1){
 
         return string;
 
@@ -55,7 +55,6 @@ function maps(x){
 
     return reverse(string.substr(1))+ string.charAt(0)
 
- } 
-
+    } 
  
-console.log(reverse('ABCD'));
+    console.log(reverse('ABCD'));
